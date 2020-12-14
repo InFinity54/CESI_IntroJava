@@ -12,3 +12,4 @@ Dépôt _Git_ de l'application _Java_ réalisée durant le cours d'introduction 
 Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Affichage d'un _Hello World_
 * Ajout d'un deuxième point de démarrage pour l'application
+* Tests avec les variables
