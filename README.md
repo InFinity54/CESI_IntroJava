@@ -26,3 +26,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Héritage
 * JavaDoc
 * Tableaux d'instances de classes
+* Collections
