@@ -3,24 +3,23 @@ public class Principale {
     public static void main(String[] args) {
         System.out.println("Début programme");
 
-        int age = 15;
+        int i = 0;
 
         /* Opérateurs possibles */
         // && pour et
         // || pour ou
         // ! pour non
 
-        /* Condition */
-        if (age < 12) {
-            System.out.println("Vous êtes un enfant.");
-        } else if (age < 18) {
-            System.out.println("Vous êtes un adolescent.");
-        } else {
-            System.out.println("Vous êtes un adulte.");
+        /* Tant que */
+        while (i < 10) {
+            System.out.println(i);
+            i++;
         }
 
-        /* Condition (en une seule ligne) */
-        System.out.println(age < 18 ? "Vous êtes majeur." : "Vous êtes mineur.");
+        /* Pour */
+        for (int index = 0; index < 10; index++) {
+            System.out.println(index);
+        }
     }
 
 }
