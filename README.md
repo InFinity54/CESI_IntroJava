@@ -14,3 +14,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Ajout d'un deuxième point de démarrage pour l'application
 * Tests avec les variables
 * Démonstration des variables de base
+* Calculs avec des variables
