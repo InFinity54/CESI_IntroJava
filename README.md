@@ -23,3 +23,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Classe "Personne" (avec getters et setters)
 * Packages et imports
 * Constructeur
+* Héritage
