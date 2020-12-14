@@ -20,3 +20,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Boucles
 * Tableaux
 * Classe "Personne"
+* Classe "Personne" (avec getters et setters)

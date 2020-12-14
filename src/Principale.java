@@ -4,13 +4,13 @@ public class Principale {
         Personne personne = new Personne();
         Personne personne2 = new Personne();
 
-        personne.nom = "DOE";
-        personne.prenom = "John";
-        personne.age = 42;
+        personne.setNom("DOE");
+        personne.setPrenom("John");
+        personne.setAge(42);
 
-        personne2.nom = "STARK";
-        personne2.prenom = "Tony";
-        personne2.age = 39;
+        personne2.setNom("STARK");
+        personne2.setPrenom("Tony");
+        personne2.setAge(39);
 
         System.out.println(personne);
         System.out.println(personne2);
