@@ -1,15 +1,21 @@
 public class Principale {
 
     public static void main(String[] args) {
-        System.out.println("Début programme");
+        Personne personne = new Personne();
+        Personne personne2 = new Personne();
 
-        /* Tableau d'entiers */
-        int[] monTableau = {1, 5, 1, 98, 7, 8};
+        personne.nom = "DOE";
+        personne.prenom = "John";
+        personne.age = 42;
 
-        /* Pour chaque */
-        for (int maValeur : monTableau) {
-            System.out.println(maValeur);
-        }
+        personne2.nom = "STARK";
+        personne2.prenom = "Tony";
+        personne2.age = 39;
+
+        System.out.println(personne);
+        System.out.println(personne2);
+        System.out.println(personne.getFullName("M."));
+        System.out.println(personne2.getFullName("M."));
     }
 
 }

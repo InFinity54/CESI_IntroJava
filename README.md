@@ -19,3 +19,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Conditions
 * Boucles
 * Tableaux
+* Classe "Personne"
