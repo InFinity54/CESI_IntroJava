@@ -24,3 +24,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Packages et imports
 * Constructeur
 * Héritage
+* JavaDoc

@@ -15,4 +15,10 @@ public class Formateur extends Personne {
     public void setNote(int note) {
         this.note = note;
     }
+
+    // @Override fait partie du JavaDoc, et permet d'indiquer que la fonction ci-dessous remplace celle de la classe Personne dans cette classe.
+    @Override
+    public String getFullName() {
+        return "Pr." + " " + getNom() + " " + getPrenom();
+    }
 }
