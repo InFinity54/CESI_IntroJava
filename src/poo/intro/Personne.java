@@ -6,6 +6,22 @@ public class Personne {
     private int age;
     private boolean majeur;
 
+    // Constructeur par défaut
+    public Personne() {}
+
+    // Constructeur avec nom et prénom
+    public Personne(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
+    // Constructeur avec nom, prénom et âge
+    public Personne(String nom, String prenom, int age) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.age = age;
+    }
+
     public String getNom() {
         return nom;
     }
