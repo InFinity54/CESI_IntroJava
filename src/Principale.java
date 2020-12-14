@@ -1,11 +1,17 @@
-import poo.intro.Formateur;
+import poo.intro.Personne;
 
 public class Principale {
 
     public static void main(String[] args) {
-        Formateur monFormateur = new Formateur("DOE", "John", 42, 10);
+        Personne personne1 = new Personne("DOE", "John", 42);
+        Personne personne2 = new Personne("STARK", "Tony", 49);
+        Personne personne3 = new Personne("GATES", "Bill", 61);
 
-        System.out.println(monFormateur.getFullName() + " (" + monFormateur.getNote() + ")");
+        Personne[] mesPersonnes = {personne1, personne2, personne3};
+
+        System.out.println(mesPersonnes[0].getFullName());
+        System.out.println(mesPersonnes[1].getFullName());
+        System.out.println(mesPersonnes[2].getFullName());
     }
 
 }
