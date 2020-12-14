@@ -9,4 +9,5 @@ Dépôt _Git_ de l'application _Java_ réalisée durant le cours d'introduction 
 * Installer l'[_OpenJDK_](https://openjdk.java.net/) 15
 
 ## Contenu du dépôt
-Aucun contenu pour le moment.
+Le contenu du dépôt est obtenu à l'aide des différents commits.
+* Affichage d'un _Hello World_
