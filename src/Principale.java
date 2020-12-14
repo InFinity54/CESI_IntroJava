@@ -3,19 +3,25 @@ public class Principale {
     public static void main(String[] args) {
         System.out.println("Début programme");
 
-        int resultatEntier = 42 * 42;
-        float resultatDecimal = 42.42f * 42.42f;
-        double resultatGrandDecimal = 42.42 * 42.42;
+        /* Types primitifs */
+        int monEntier = 42;
+        long monGrandEntier = 4200000000L;
+        float monDecimal = 42.42f;
+        double monGrandDecimal = 42.42;
+        boolean monBooleen = true;
+        char monCaractere = 'c';
 
-        // en cas d'opérations avec plusieurs types, le résultat de l'opération correspond au type le plus précis
-        // Précision des variables : int > long > float > double
-        // ici, comme on un int, un float et un double, le résultat sera un double
-        double resultatTypesMultiples = 42 * 42.42f * 42.42;
+        /* Wrappers (comprenant le type primitif mais allant plus loin) */
+        Integer monEntierWrapper = 42;
+        Long monGrandEntierWrapper = 4200000000L;
+        Float monDecimalWrapper = 42.42f;
+        Double monGrandDecimalWrapper = 42.42;
+        Boolean monBooleenWrapper = true;
+        Character monCaractereWrapper = 'c';
+        String monTexteWrapper = "Toto"; // ne possède pas de type primitif
 
-        System.out.println("resultatEntier: " + resultatEntier);
-        System.out.println("resultatDecimal: " + resultatDecimal);
-        System.out.println("resultatGrandDecimal: " + resultatGrandDecimal);
-        System.out.println("resultatTypesMultiples: " + resultatTypesMultiples);
+        System.out.println(monEntierWrapper.toString());
+        System.out.println(Integer.max(80, 98));
     }
 
 }

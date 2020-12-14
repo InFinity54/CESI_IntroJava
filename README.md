@@ -15,3 +15,4 @@ Le contenu du dépôt est obtenu à l'aide des différents commits.
 * Tests avec les variables
 * Démonstration des variables de base
 * Calculs avec des variables
+* Liste de types primitifs et de wrappers
