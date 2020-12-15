@@ -1,21 +1,16 @@
+import poo.intro.Employe;
+import poo.intro.Formateur;
+import poo.intro.ResponsablePedagogique;
+
 public class Principale {
-
     public static void main(String[] args) {
-        String maChaine = "toto";
+        Formateur monFormateur = new Formateur("STARK", "Tony", 42, 10);
+        ResponsablePedagogique monResponsable = new ResponsablePedagogique("ROGERS", "Steve", 41);
 
-        if (maChaine.equals("toto")) {
-            System.out.println("Les chaînes correspondent");
-        } else {
-            System.out.println("Les chaînes ne correspondent pas");
-        }
-
-        int monEntier = 1;
-
-        if (monEntier == 58) {
-            System.out.println("Les entiers correspondent");
-        } else {
-            System.out.println("Les entiers ne correspondent pas");
-        }
+        afficherSalaire(monFormateur);
     }
 
+    public static void afficherSalaire(Employe employe) {
+        System.out.println("Cette personne gagne " + employe.getSalaire() + "€ par mois.");
+    }
 }
